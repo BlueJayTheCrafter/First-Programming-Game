@@ -1,0 +1,3 @@
+if(lives = lives - 1){
+room_restart();
+}
