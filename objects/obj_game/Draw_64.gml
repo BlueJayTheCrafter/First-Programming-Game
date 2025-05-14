@@ -1,5 +1,5 @@
 if(room == rm_game)
 {
-	draw_text(20, 20, "SCORE: "+string(score));
-	draw_text(20, 40, "LIVES: "+string(lives));
+	draw_text(40, 20, "SCORE: "+string(score));
+	draw_text(40, 40, "LIVES: "+string(lives));
 }

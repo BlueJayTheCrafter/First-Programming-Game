@@ -4,5 +4,7 @@ with(other)
 	image_index = 1;
 }
 
-instance_destroy();
-score += 20;
+if(obj_enemy.hp == 0){
+	instance_destroy();
+	score += 20;
+}
