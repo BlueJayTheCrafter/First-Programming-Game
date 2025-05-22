@@ -3,6 +3,7 @@ gpu_set_blendenable(false);
 if(pause)
 
 {
+	audio_pause_sound(snd_game);
 
 	surface_set_target(application_surface);
 		if(surface_exists(pauseSurf)) draw_surface(pauseSurf,0,0);
@@ -16,6 +17,7 @@ if(pause)
 
 if(keyboard_check_pressed(vk_enter))
 {
+	audio_resume_sound(snd_game);
 	
 	if(!pause)
 	{
