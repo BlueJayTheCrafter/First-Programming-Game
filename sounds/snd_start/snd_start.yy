@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":204.8,
+  "duration":122.539474,
   "name":"snd_start",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_start.wav",
+  "soundFile":"snd_start.ogg",
   "type":0,
   "volume":1.0,
 }
